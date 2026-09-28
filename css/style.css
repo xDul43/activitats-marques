@@ -5,3 +5,74 @@
     text-decoration: none;
     list-style: none;
 }
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+table {
+    border: 1px solid black;
+    max-height: 552px;
+    max-width: 1000px;
+    width: 100vw;
+    height: 100vh;
+
+    border-collapse: collapse;
+}
+
+td,th {
+    border: 1px solid black;
+    text-align: center;
+    width: 12.5%;
+}
+
+thead {
+    height: 6.25%;
+}
+
+tr {
+    height: 12.5%;
+}
+
+.trpati {
+    height: 6.25%;
+}
+
+.void {
+    background-color: gray;
+}
+
+.hora {
+    background-color: rgb(187, 187, 187);
+}
+
+.aso {
+    background-color: rgb(231, 168, 231);
+}
+.marques {
+    background-color: rgb(219, 231, 168);
+}
+.hlld {
+    background-color: rgb(173, 231, 168);
+}
+.bbdd {
+    background-color: rgb(231, 191, 168);
+}
+.tutoria {
+    background-color: rgb(245, 164, 164);
+}
+.fm {
+    background-color: rgb(168, 183, 231);
+}
+.ipo {
+    background-color: rgb(255, 255, 255);
+}
+.iso {
+    background-color: rgb(253, 157, 189);
+}
+.sx {
+    background-color: rgb(199, 157, 253);
+}
