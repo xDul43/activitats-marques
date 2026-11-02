@@ -1,0 +1,122 @@
+header {
+    grid-area: header;
+    background-color: gray;
+    color: white;
+    border: 1px solid pink;
+
+}
+
+aside {
+    grid-area: aside;
+    background-color: gray;
+    color: white;
+    border: 1px solid pink;
+
+}
+
+main {
+    grid-area: main;
+    background-color: rgb(173, 173, 173);
+    color: white;
+    border: 1px solid pink;
+
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgb(105, 99, 99);
+    color: white;
+    border: 1px solid pink;
+}
+
+diva {
+    grid-area: a;
+    background-color: rgb(173, 173, 173);
+    color: white;
+    border: 1px solid pink;
+
+}
+
+divb {
+    grid-area: b;
+    background-color: rgb(173, 173, 173);
+    color: white;
+    border: 1px solid pink;
+
+}
+
+divc {
+    grid-area: c;
+    background-color: rgb(173, 173, 173);
+    color: white;
+    border: 1px solid pink;
+
+}
+
+divd {
+    grid-area: d;
+    background-color: rgb(173, 173, 173);
+    color: white;
+    border: 1px solid pink;
+
+}
+
+dive {
+    grid-area: e;
+    background-color: rgb(173, 173, 173);
+    color: white;
+    border: 1px solid pink;
+
+}
+
+divf {
+    grid-area: f;
+    background-color: rgb(173, 173, 173);
+    color: white;
+    border: 1px solid pink;
+
+}
+
+divg {
+    grid-area: g;
+    background-color: rgb(173, 173, 173);
+    color: white;
+    border: 1px solid pink;
+
+}
+
+
+.grid1 {
+    background-color: gray;
+    display: grid;
+
+    grid-template-columns: 200px 200px 200px;
+
+    grid-template-rows: auto auto auto;
+
+    grid-template-areas:
+        "nada header header"
+        "aside main main"
+        "footer footer footer";
+}
+
+.grid2 {
+    display: grid;
+
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+
+    grid-template-areas: "a b"
+                         "c d";
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 40% 40%;
+
+    grid-template-areas: "e e"
+                         "f g";
+    height: 100%;
+    width: 100%;
+}
